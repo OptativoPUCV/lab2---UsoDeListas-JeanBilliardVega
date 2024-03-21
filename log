@@ -21,3 +21,14 @@ exercises.c:48:11: error: ‘i’ is used uninitialized [-Werror=uninitialized]
 cc1: all warnings being treated as errors
 Compilation failed
 ea711fa
+Thu 21 Mar 2024 08:14:46 PM UTC: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:
+exercises.c: In function ‘crea_lista’:
+exercises.c:52:14: error: assignment to ‘int’ from ‘int *’ makes integer from pointer without a cast [-Werror=int-conversion]
+   52 |     *numeros = i;
+      |              ^
+cc1: all warnings being treated as errors
+Compilation failed
+a15749d
