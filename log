@@ -56,3 +56,14 @@ Thu 21 Mar 2024 08:29:30 PM UTC:
  tests:  4|1
 total_score: 50/70
 03c2b9e
+Thu 21 Mar 2024 08:39:49 PM UTC: 
+ exercises.c | 25 ++++++++++++++++++++++++-
+ 1 file changed, 24 insertions(+), 1 deletion(-)
+In file included from test.c:5:
+exercises.c: In function ‘parentesisBalanceados’:
+exercises.c:124:7: error: unused variable ‘talla’ [-Werror=unused-variable]
+  124 |   int talla = 0;
+      |       ^~~~~
+cc1: all warnings being treated as errors
+Compilation failed
+3c1babf
